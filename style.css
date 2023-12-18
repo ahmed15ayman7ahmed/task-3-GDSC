@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+}
+.btn1{
+    border: 3px solid rgb(183, 90, 44);
+    background: rgb(183, 90, 44);
+}
+.btn2{
+    background: rgba(0, 0, 0,.3);
+    border: 3px solid rgb(183, 90, 44);
+}
+html,body {
+    padding: 0;
+    margin: 0;
+}
+.preview{
+    background-image: url(preview2.jpeg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.preview header{
+    padding: 0 50px;
+}
+.preview header .logo{
+    margin-right: 450px;
+}
+.preview header .nav-bar{
+    float: right;
+    margin-top: -40px;
+    list-style-type: none;
+}
+
+.preview header .nav-bar .nav-link {
+    margin-right: 50px;
+    float: left;
+}
+.preview header .nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.preview .welcome {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 130px auto;
+}
+.preview .welcome p{
+    font-weight: bold;
+    color: #eae9e9;
+}
+/*
+section who we are?
+*/
+.sec-who{
+    padding: 50px 50px;
+}
+.sec-who img {
+    float: left;
+    margin-right: 40px;
+}
+.sec-who .who {
+    text-align: center;
+    padding: 0 20px;
+}
+.sec-who .who .steps{
+    text-align: start;
+    padding-top: 20px;
+}
+.sec-who .who .steps .step {
+    margin: 50px 0;
+}
+.sec-who .who .steps .step .i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid rgb(183, 90, 44);
+    float: left;
+    margin-right: 10px;
+}
+.sec-who .who .steps .step .i i{
+    margin-top: 5px ;
+}
+.sec-who .who .steps .step h5{
+    padding-top: 5px;
+    
+}
+/*
+section our location
+*/
+.sec-our-location {
+    padding: 50px 50px;
+    height: 600px;
+    background: rgb(246, 209, 178);
+}
+.sec-our-location  img {
+    margin-left: 40px;
+    float: right;
+}
+.sec-our-location  .our-location {
+    text-align: center;
+    padding: 0 20px;
+}
+.sec-our-location  .our-location p {
+    margin: 60px 0;
+}
+/*
+section contact information  !
+*/
+.sec-contact-information {
+    padding: 50px 50px;
+    height: 600px;
+}
+.sec-contact-information  img {
+    margin-left: 40px;
+    float: right;
+}
+.sec-contact-information  .contact-information {
+    text-align: center;
+    padding: 0 20px;
+}
+.sec-contact-information  .contact-information p {
+    margin: 40px 0;
+}
+.sec-contact-information .contact-information .steps ,.sec-contact-information .contact-information h4{
+    text-align: start;
+    padding-top: 13px;
+}
+.sec-contact-information .contact-information .steps .step {
+    margin: 10px 0;
+}
+.sec-contact-information .contact-information .steps .step .i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(183, 90, 44);
+    float: left;
+    margin-right: 10px;
+}
+.sec-contact-information .contact-information .steps .step .i i{
+    margin-top: 6px ;
+}
+.sec-contact-information .contact-information .steps .step h5{
+    padding-top: 5px;
+    
+}
+/*
+section our baking  !
+*/
+
+.sec-our-baking{
+    background: rgb(234, 234, 234);
+    padding: 20px;
+    height: 600px;
+    text-align: center;
+}
+
+.sec-our-baking .bakes{
+    float: left;
+    width: 300px;
+    margin: 20px 130px 20px 20px;
+}
+.sec-our-baking .bakes.bl{
+    margin-right: 0;
+}
+/*
+footer  !
+*/
+footer {
+    color: #bfbfbf;
+    padding: 0;
+    margin-top: -21px;
+}
+footer .top{
+    padding: 20px;
+    background: rgb(65, 65, 65);
+    height: 400px;
+}
+footer .top .details {
+    float: left;
+    width: 23%;
+    margin: 0 1%;
+}
+
+footer .top .details  .steps{
+    text-align: start;
+}
+footer .top .details  .steps .step {
+    margin: 30px 0;
+}
+footer .top .details  .steps .step .i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+}
+.sec-who .who .steps .step .i i{
+    margin-top: 5px ;
+}
+.sec-who .who .steps .step h5{
+    padding-top: 5px;
+    
+}
+
+footer .bottom{
+    text-align: center;
+    background: rgb(33, 33, 33);
+    height: 200px;
+    padding: 20px 0;
+}
+footer .bottom  h3{
+    margin: 30px 0;
+}
+footer .bottom .icons{
+    padding: 0 40%;
+    padding-left:43%;
+    text-align: center;
+}
+footer .bottom .icons i{
+    float: left ;
+    margin: 0 15px;
+}
+
+
+
